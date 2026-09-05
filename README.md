@@ -1,13 +1,16 @@
 # skillpack
 
 [![CI](https://github.com/Onur45500/skillpack/actions/workflows/ci.yml/badge.svg)](https://github.com/Onur45500/skillpack/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@onur45500/skillpack.svg)](https://www.npmjs.com/package/@onur45500/skillpack)
+[![npm downloads](https://img.shields.io/npm/dm/@onur45500/skillpack.svg)](https://www.npmjs.com/package/@onur45500/skillpack)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](https://nodejs.org/)
-[![npm](https://img.shields.io/badge/npm-%40onur45500%2Fskillpack-cb3837.svg)](https://www.npmjs.com/package/@onur45500/skillpack)
 
 Recommend and safely combine the three trending meta-skill frameworks for AI coding agents — **[Superpowers](https://github.com/obra/superpowers)**, **[Agent Skills](https://github.com/addyosmani/agent-skills)**, and **[Matt Pocock's skills](https://github.com/mattpocock/skills)** — with one CLI.
 
 `pick` runs a short quiz and prints a primary router plus a conflict-checked cherry-pick list. `map` inventories the packs and reports unique skills, overlaps, and real conflicts (router hooks, auto-invocation trigger overlap, flat-install name collisions).
+
+**Published on npm:** [`@onur45500/skillpack`](https://www.npmjs.com/package/@onur45500/skillpack)
 
 <p align="center">
   <img src="docs/assets/pick-demo.svg" alt="skillpack pick terminal demo" width="880"/>
@@ -24,17 +27,23 @@ skillpack fills that gap.
 
 ## Install
 
+Run instantly with `npx` (no install required):
+
 ```bash
 npx @onur45500/skillpack pick
 npx @onur45500/skillpack map diff
 ```
 
-Or install globally:
+Or install the CLI globally:
 
 ```bash
 npm i -g @onur45500/skillpack
 skillpack pick
+skillpack map diff
+skillpack map html
 ```
+
+Package page: [npmjs.com/package/@onur45500/skillpack](https://www.npmjs.com/package/@onur45500/skillpack)
 
 ## Quick start
 

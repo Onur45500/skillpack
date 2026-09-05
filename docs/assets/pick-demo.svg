@@ -16,20 +16,20 @@
 
   <text x="36" y="128" fill="#e5e7eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">Your primary router: Superpowers</text>
 
-  <text x="36" y="160" fill="#9ca3af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">You chose "Barrel through", "Solo", and "Skips tests / rushes</text>
-  <text x="36" y="178" fill="#9ca3af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">code"  Superpowers fits that profile directly.</text>
+  <text x="36" y="160" fill="#9ca3af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">You chose &quot;Barrel through&quot;, &quot;Solo&quot;, and &quot;Skips tests / rushes</text>
+  <text x="36" y="178" fill="#9ca3af" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">code&quot; &#8212; Superpowers fits that profile directly.</text>
 
   <text x="36" y="218" fill="#e5e7eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">Safe to cherry-pick alongside Superpowers:</text>
-  <text x="36" y="246" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13"> grill-me (Matt Pocock)  no collision, fills a requirements gap</text>
-  <text x="36" y="268" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13"> diagnose (Matt Pocock)  no collision</text>
-  <text x="36" y="290" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13"> eval-and-skill-routing (Agent Skills)  no collision</text>
-  <text x="36" y="312" fill="#f87171" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13"> test-driven-development  SKIP: flat-install name collision</text>
+  <text x="36" y="246" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">&#10003; grill-me (Matt Pocock) &#8212; no collision, fills a requirements gap</text>
+  <text x="36" y="268" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">&#10003; diagnose (Matt Pocock) &#8212; no collision</text>
+  <text x="36" y="290" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">&#10003; eval-and-skill-routing (Agent Skills) &#8212; no collision</text>
+  <text x="36" y="312" fill="#f87171" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">&#10007; test-driven-development &#8212; SKIP: flat-install name collision</text>
 
   <text x="36" y="352" fill="#e5e7eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">Install snippets</text>
-  <text x="36" y="378" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12"># Primary  Claude Code</text>
+  <text x="36" y="378" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12"># Primary &#8212; Claude Code</text>
   <text x="36" y="398" fill="#fde68a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">/plugin install superpowers@claude-plugins-official</text>
-  <text x="36" y="424" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12"># Primary  Cursor / Codex / other</text>
+  <text x="36" y="424" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12"># Primary &#8212; Cursor / Codex / other</text>
   <text x="36" y="444" fill="#fde68a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">npx skills add obra/superpowers</text>
 
-  <text x="36" y="486" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">using bundled snapshot · run skillpack map fetch --refresh for live data</text>
+  <text x="36" y="486" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">using bundled snapshot &#183; run skillpack map fetch --refresh for live data</text>
 </svg>

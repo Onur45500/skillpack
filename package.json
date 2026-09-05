@@ -4,7 +4,7 @@
   "description": "Recommend and safely combine meta-skill frameworks for AI coding agents",
   "type": "module",
   "bin": {
-    "skillpack": "./dist/index.js"
+    "skillpack": "dist/index.js"
   },
   "files": [
     "dist",
