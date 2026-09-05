@@ -1,0 +1,8 @@
+{
+  "autonomy": "checkpoints",
+  "team": "large",
+  "pain": "decay",
+  "platform": "multi",
+  "ownership": "owns",
+  "tokenBudget": "tight"
+}

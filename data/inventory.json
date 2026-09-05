@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-03-01T12:00:00.000Z",
+  "source": "bundled",
+  "packs": {
+    "superpowers": {
+      "packId": "superpowers",
+      "repoUrl": "https://github.com/obra/superpowers",
+      "refUsed": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "fetchedAt": "2026-03-01T12:00:00.000Z",
+      "hasSessionHook": true,
+      "routerStyle": "aggressive",
+      "commands": [
+        { "name": "brainstorming", "slashCommand": "/superpowers:brainstorming", "filePath": "skills/brainstorming/SKILL.md" },
+        { "name": "writing-plans", "slashCommand": "/superpowers:writing-plans", "filePath": "skills/writing-plans/SKILL.md" },
+        { "name": "executing-plans", "slashCommand": "/superpowers:executing-plans", "filePath": "skills/executing-plans/SKILL.md" },
+        { "name": "test-driven-development", "slashCommand": "/superpowers:test-driven-development", "filePath": "skills/test-driven-development/SKILL.md" },
+        { "name": "systematic-debugging", "slashCommand": "/superpowers:systematic-debugging", "filePath": "skills/systematic-debugging/SKILL.md" },
+        { "name": "using-git-worktrees", "slashCommand": "/superpowers:using-git-worktrees", "filePath": "skills/using-git-worktrees/SKILL.md" },
+        { "name": "subagent-driven-development", "slashCommand": "/superpowers:subagent-driven-development", "filePath": "skills/subagent-driven-development/SKILL.md" },
+        { "name": "requesting-code-review", "slashCommand": "/superpowers:requesting-code-review", "filePath": "skills/requesting-code-review/SKILL.md" },
+        { "name": "verification-before-completion", "slashCommand": "/superpowers:verification-before-completion", "filePath": "skills/verification-before-completion/SKILL.md" },
+        { "name": "using-superpowers", "slashCommand": "/superpowers:using-superpowers", "filePath": "skills/using-superpowers/SKILL.md" },
+        { "name": "writing-skills", "slashCommand": "/superpowers:writing-skills", "filePath": "skills/writing-skills/SKILL.md" },
+        { "name": "dispatching-parallel-agents", "slashCommand": "/superpowers:dispatching-parallel-agents", "filePath": "skills/dispatching-parallel-agents/SKILL.md" },
+        { "name": "finishing-a-development-branch", "slashCommand": "/superpowers:finishing-a-development-branch", "filePath": "skills/finishing-a-development-branch/SKILL.md" },
+        { "name": "receiving-code-review", "slashCommand": "/superpowers:receiving-code-review", "filePath": "skills/receiving-code-review/SKILL.md" }
+      ],
+      "skills": [
+        { "name": "brainstorming", "description": "Explore requirements and design options before writing a plan", "filePath": "skills/brainstorming/SKILL.md", "invocation": "auto" },
+        { "name": "writing-plans", "description": "Write a detailed implementation plan from a brainstorm", "filePath": "skills/writing-plans/SKILL.md", "invocation": "auto" },
+        { "name": "executing-plans", "description": "Execute an approved plan step by step", "filePath": "skills/executing-plans/SKILL.md", "invocation": "auto" },
+        { "name": "test-driven-development", "description": "Enforce TDD — write failing tests before implementation code", "filePath": "skills/test-driven-development/SKILL.md", "invocation": "auto" },
+        { "name": "systematic-debugging", "description": "Root-cause debugging with hypotheses and verification", "filePath": "skills/systematic-debugging/SKILL.md", "invocation": "auto" },
+        { "name": "using-git-worktrees", "description": "Create isolated git worktree environments for feature work", "filePath": "skills/using-git-worktrees/SKILL.md", "invocation": "auto" },
+        { "name": "subagent-driven-development", "description": "Dispatch implementation work to isolated subagents", "filePath": "skills/subagent-driven-development/SKILL.md", "invocation": "auto" },
+        { "name": "requesting-code-review", "description": "Request a structured code review before merge", "filePath": "skills/requesting-code-review/SKILL.md", "invocation": "auto" },
+        { "name": "verification-before-completion", "description": "Verify tests and acceptance criteria before claiming done", "filePath": "skills/verification-before-completion/SKILL.md", "invocation": "auto" },
+        { "name": "using-superpowers", "description": "Bootstrap skill — if there's even a 1% chance a skill applies, invoke it aggressively", "filePath": "skills/using-superpowers/SKILL.md", "invocation": "auto" },
+        { "name": "writing-skills", "description": "Author new Superpowers-style skills with drill evals", "filePath": "skills/writing-skills/SKILL.md", "invocation": "user" },
+        { "name": "dispatching-parallel-agents", "description": "Run multiple subagents in parallel on independent tasks", "filePath": "skills/dispatching-parallel-agents/SKILL.md", "invocation": "auto" },
+        { "name": "finishing-a-development-branch", "description": "Merge, PR, or clean up a finished development branch", "filePath": "skills/finishing-a-development-branch/SKILL.md", "invocation": "auto" },
+        { "name": "receiving-code-review", "description": "Respond productively to code review feedback", "filePath": "skills/receiving-code-review/SKILL.md", "invocation": "auto" }
+      ]
+    },
+    "agentSkills": {
+      "packId": "agentSkills",
+      "repoUrl": "https://github.com/addyosmani/agent-skills",
+      "refUsed": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "fetchedAt": "2026-03-01T12:00:00.000Z",
+      "hasSessionHook": true,
+      "routerStyle": "checkpointed",
+      "commands": [
+        { "name": "spec", "slashCommand": "/spec", "filePath": ".claude/commands/spec.md" },
+        { "name": "plan", "slashCommand": "/plan", "filePath": ".claude/commands/plan.md" },
+        { "name": "build", "slashCommand": "/build", "filePath": ".claude/commands/build.md" },
+        { "name": "test", "slashCommand": "/test", "filePath": ".claude/commands/test.md" },
+        { "name": "review", "slashCommand": "/review", "filePath": ".claude/commands/review.md" },
+        { "name": "ship", "slashCommand": "/ship", "filePath": ".claude/commands/ship.md" },
+        { "name": "webperf", "slashCommand": "/webperf", "filePath": ".claude/commands/webperf.md" },
+        { "name": "code-simplify", "slashCommand": "/code-simplify", "filePath": ".claude/commands/code-simplify.md" }
+      ],
+      "skills": [
+        { "name": "interview-and-requirements", "description": "Interview stakeholders and refine requirements before writing a PRD or spec", "filePath": "skills/interview-and-requirements/SKILL.md", "invocation": "auto" },
+        { "name": "spec-driven-development", "description": "Write a precise spec before planning implementation", "filePath": "skills/spec-driven-development/SKILL.md", "invocation": "auto" },
+        { "name": "task-breakdown-and-planning", "description": "Break a spec into small atomic plan tasks with checkpoints", "filePath": "skills/task-breakdown-and-planning/SKILL.md", "invocation": "auto" },
+        { "name": "test-driven-development", "description": "TDD workflow with human checkpoints — tests are proof", "filePath": "skills/test-driven-development/SKILL.md", "invocation": "auto" },
+        { "name": "incremental-implementation", "description": "Build one vertical slice at a time with review gates", "filePath": "skills/incremental-implementation/SKILL.md", "invocation": "auto" },
+        { "name": "debugging-and-root-cause", "description": "Systematic debug and verify before patching", "filePath": "skills/debugging-and-root-cause/SKILL.md", "invocation": "auto" },
+        { "name": "code-review-and-quality", "description": "Structured code review personas and quality gates", "filePath": "skills/code-review-and-quality/SKILL.md", "invocation": "auto" },
+        { "name": "security-and-hardening", "description": "Security review checklist before ship", "filePath": "skills/security-and-hardening/SKILL.md", "invocation": "auto" },
+        { "name": "performance-optimization", "description": "Measure Core Web Vitals and bundle before optimizing", "filePath": "skills/performance-optimization/SKILL.md", "invocation": "auto" },
+        { "name": "accessibility-audit", "description": "Accessibility review for UI work", "filePath": "skills/accessibility-audit/SKILL.md", "invocation": "auto" },
+        { "name": "architecture-review", "description": "Review architecture and fight context decay over long-running work", "filePath": "skills/architecture-review/SKILL.md", "invocation": "auto" },
+        { "name": "shipping-and-launch", "description": "Ship checklists, feature flags, staged rollouts, rollback plans", "filePath": "skills/shipping-and-launch/SKILL.md", "invocation": "auto" },
+        { "name": "using-agent-skills", "description": "Meta skill — route work through DEFINE PLAN BUILD VERIFY REVIEW SHIP with human checkpoints", "filePath": "skills/using-agent-skills/SKILL.md", "invocation": "auto" },
+        { "name": "eval-and-skill-routing", "description": "In-repo eval framework that catches routing and description regressions in CI", "filePath": "skills/eval-and-skill-routing/SKILL.md", "invocation": "user" }
+      ]
+    },
+    "mattPocock": {
+      "packId": "mattPocock",
+      "repoUrl": "https://github.com/mattpocock/skills",
+      "refUsed": "cccccccccccccccccccccccccccccccccccccccc",
+      "fetchedAt": "2026-03-01T12:00:00.000Z",
+      "hasSessionHook": false,
+      "routerStyle": "none",
+      "commands": [
+        { "name": "grill-me", "slashCommand": "/grill-me", "filePath": "skills/engineering/grill-me/SKILL.md" },
+        { "name": "tdd", "slashCommand": "/tdd", "filePath": "skills/engineering/tdd/SKILL.md" },
+        { "name": "diagnose", "slashCommand": "/diagnose", "filePath": "skills/engineering/diagnose/SKILL.md" },
+        { "name": "to-prd", "slashCommand": "/to-prd", "filePath": "skills/engineering/to-prd/SKILL.md" },
+        { "name": "improve-codebase-architecture", "slashCommand": "/improve-codebase-architecture", "filePath": "skills/engineering/improve-codebase-architecture/SKILL.md" },
+        { "name": "setup-matt-pocock-skills", "slashCommand": "/setup-matt-pocock-skills", "filePath": "skills/engineering/setup-matt-pocock-skills/SKILL.md" },
+        { "name": "writing-great-skills", "slashCommand": "/writing-great-skills", "filePath": "skills/productivity/writing-great-skills/SKILL.md" },
+        { "name": "writing-for-agents", "slashCommand": "/writing-for-agents", "filePath": "skills/productivity/writing-for-agents/SKILL.md" },
+        { "name": "carve-out", "slashCommand": "/carve-out", "filePath": "skills/engineering/carve-out/SKILL.md" },
+        { "name": "git-worktree", "slashCommand": "/git-worktree", "filePath": "skills/engineering/git-worktree/SKILL.md" }
+      ],
+      "skills": [
+        { "name": "grill-me", "description": "Grill the user on requirements until edge cases are resolved", "filePath": "skills/engineering/grill-me/SKILL.md", "category": "engineering", "invocation": "user" },
+        { "name": "tdd", "description": "Test-driven development loop invoked by the user", "filePath": "skills/engineering/tdd/SKILL.md", "category": "engineering", "invocation": "user" },
+        { "name": "diagnose", "description": "Diagnose a bug with a structured investigation", "filePath": "skills/engineering/diagnose/SKILL.md", "category": "engineering", "invocation": "user" },
+        { "name": "to-prd", "description": "Turn a conversation into a PRD", "filePath": "skills/engineering/to-prd/SKILL.md", "category": "engineering", "invocation": "user" },
+        { "name": "improve-codebase-architecture", "description": "Improve codebase architecture and domain boundaries", "filePath": "skills/engineering/improve-codebase-architecture/SKILL.md", "category": "engineering", "invocation": "user" },
+        { "name": "setup-matt-pocock-skills", "description": "Configure this repo for the engineering skills", "filePath": "skills/engineering/setup-matt-pocock-skills/SKILL.md", "category": "engineering", "invocation": "user" },
+        { "name": "writing-great-skills", "description": "Reference for writing and editing skills well", "filePath": "skills/productivity/writing-great-skills/SKILL.md", "category": "productivity", "invocation": "user" },
+        { "name": "writing-for-agents", "description": "Writing documents for agents — skills, AGENTS.md, CLAUDE.md", "filePath": "skills/productivity/writing-for-agents/SKILL.md", "category": "productivity", "invocation": "user" },
+        { "name": "carve-out", "description": "Carve a vertical slice from a large change", "filePath": "skills/engineering/carve-out/SKILL.md", "category": "engineering", "invocation": "user" },
+        { "name": "git-worktree", "description": "Create a git worktree for isolated work", "filePath": "skills/engineering/git-worktree/SKILL.md", "category": "engineering", "invocation": "user" },
+        { "name": "test-driven-development", "description": "Alternate TDD skill name that may collide when flat-installed", "filePath": "skills/engineering/test-driven-development/SKILL.md", "category": "engineering", "invocation": "user" },
+        { "name": "request-code-review", "description": "Ask for a focused code review", "filePath": "skills/engineering/request-code-review/SKILL.md", "category": "engineering", "invocation": "user" }
+      ]
+    }
+  }
+}

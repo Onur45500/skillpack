@@ -1,0 +1,13 @@
+.tmp-fetch-work/
+**/\.tmp-fetch-work/
+node_modules/
+dist/
+coverage/
+*.tgz
+.DS_Store
+skillpack-map.html
+tmp-diff.json
+.env
+*.log
+.cache/
+*.local

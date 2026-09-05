@@ -1,0 +1,62 @@
+{
+  "name": "@onur45500/skillpack",
+  "version": "0.1.0",
+  "description": "Recommend and safely combine meta-skill frameworks for AI coding agents",
+  "type": "module",
+  "bin": {
+    "skillpack": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "regenerate-snapshot": "tsx scripts/regenerate-snapshot.ts",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "cli",
+    "skills",
+    "claude-code",
+    "agent-skills",
+    "superpowers",
+    "cursor",
+    "codex"
+  ],
+  "license": "MIT",
+  "author": "Onur45500",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onur45500/skillpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Onur45500/skillpack/issues"
+  },
+  "homepage": "https://github.com/Onur45500/skillpack#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.10.0",
+    "commander": "^13.1.0",
+    "gray-matter": "^4.0.3",
+    "picocolors": "^1.1.1",
+    "tar": "^7.4.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}
